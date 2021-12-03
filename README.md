@@ -62,4 +62,4 @@ Oracle VirtualBox 是由德國 InnoTek 軟體公司出品的虛擬機器軟體�
 ### ✪ 啟動虛擬機器
   1. 啟動 VirtualBox
   2. 點擊虛擬機器，讓它開機，待出現以下畫面就完成開機囉
-   <img src="./media/nlp_trainingLab.png" alt="desktop" width="400"/>
+   <img src="./media/nlp_trainingLab.png" alt="desktop" width="600"/>
