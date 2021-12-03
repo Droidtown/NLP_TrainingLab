@@ -33,17 +33,17 @@ Oracle VirtualBox 是由德國 InnoTek 軟體公司出品的虛擬機器軟體�
 ### ✪ 下載虛擬機器：
 點擊下載連結：[https://bit.ly/NLP_TrainingLAB1202](https://bit.ly/NLP_TrainingLAB1202)
 
-檔案有點大，約 3.5GB，請耐心稍待…
-<img src="./media/download.png" alt="download" width="400"/>
+檔案有點大，約 3.5GB，請耐心稍待…  
+<img src="./media/download.png" alt="download" width="600"/>
 
-下載完成後，儲存到本機你的電腦裡：
-<img src="./media/save.png" alt="save" width="400"/>
+下載完成後，儲存到本機你的電腦裡：  
+<img src="./media/save.png" alt="save" width="600"/>
 
 ---
 #<span style="color:red">！！注意！！</span>
 如果您要參加訓練活動的話，請<span style="color:red">一定！絕對！務必！</span>預先在家裡下載好虛擬機器。如果同一個 IP 多次下載的話，將會被雲端空間服務商「暫緩」服務哦！</span>
 
-<img src="./media/exceed.jpg" alt="exceed" width="400"/>
+<img src="./media/exceed.jpg" alt="exceed" width="600"/>
 ---
 
 ### ✪ 匯入虛擬機器：
@@ -53,12 +53,12 @@ Oracle VirtualBox 是由德國 InnoTek 軟體公司出品的虛擬機器軟體�
   
   1. 啟動 VirtualBox
   2. 點擊左上方的 [工具] 接著點擊 [匯入]
-  <img src="./media/import01.png" alt="import01" width="400"/>
+  <img src="./media/import01.png" alt="import01" width="600"/>
   3. 在 [檔案] 這欄選擇剛才下載的 .ova 檔
-   <img src="./media/import02.png" alt="import02" width="400"/>
+   <img src="./media/import02.png" alt="import02" width="600"/>
   4. 依說明點擊 [下一步] 直到完成 [匯入] 操作
 
 ### ✪ 啟動虛擬機器
   1. 啟動 VirtualBox
   2. 點擊虛擬機器，讓它開機，待出現以下畫面就完成開機囉
-   <img src="./media/nlp_trainingLab.png" alt="desktop" width="400"/>
+   <img src="./media/nlp_trainingLab.png" alt="desktop" width="600"/>
