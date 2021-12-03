@@ -63,3 +63,4 @@ Oracle VirtualBox 是由德國 InnoTek 軟體公司出品的虛擬機器軟體�
   1. 啟動 VirtualBox
   2. 點擊虛擬機器，讓它開機，待出現以下畫面就完成開機囉
    <img src="./media/nlp_trainingLab.png" alt="desktop" width="600"/>
+  3. 接下來，您就可以使用桌面上的 Wing Personal IDE 以及 Terminal (終端機) 儘情編寫 NLP 程式了。
