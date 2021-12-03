@@ -33,7 +33,7 @@ Oracle VirtualBox 是由德國 InnoTek 軟體公司出品的虛擬機器軟體�
 ### ．下載虛擬機器：
 點擊下載連結：[https://bit.ly/NLP_TrainingLAB1202](https://bit.ly/NLP_TrainingLAB1202)
 
-![下載]("https://github.com/Droidtown/NLP_TrainingLab/media/download.png")
+![下載]("https://github.com/Droidtown/NLP_TrainingLab/blob/main/media/download.png")
 
 ### ．匯入虛擬機器：
   #### Windows 環境下的匯入很簡單，只要點擊兩下剛才下載的 .ova 檔，系統就會自動啟用 VirtualBox 將虛擬機器匯入了。
