@@ -59,7 +59,7 @@ Oracle VirtualBox 是由德國 InnoTek 軟體公司出品的虛擬機器軟體�
    <img src="./media/import02.png" alt="import02" width="600"/>
   4. 依說明點擊 [下一步] 直到完成 [匯入] 操作
 
-### ✪ 啟動虛擬機器
+### ✪ 啟動虛擬機器 (虛擬機器中的帳號/密碼都是 nlp2b)
   1. 啟動 VirtualBox
   2. 點擊虛擬機器，讓它開機，待出現以下畫面就完成開機囉
    <img src="./media/nlp_trainingLab.png" alt="desktop" width="600"/>
