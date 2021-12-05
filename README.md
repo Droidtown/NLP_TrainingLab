@@ -5,7 +5,7 @@
 NLP_TraingLab 是卓騰語言科技特別為了解決這個問題，透過 VirtualBox 的虛擬機器全部幫你設定好了！
 VirtualBox 是**免費**的，而 NLP_TrainingLab 也是**免費**的！
 
-安裝完成 VirtualBox 的[下載](https://www.virtualbox.org/wiki/Downloads)和安裝以後，
+完成 VirtualBox 下載和安裝以後，
 
 接下來只要：
 1. 下載虛擬機器
@@ -19,7 +19,8 @@ VirtualBox 是**免費**的，而 NLP_TrainingLab 也是**免費**的！
 Oracle VirtualBox 是由德國 InnoTek 軟體公司出品的虛擬機器軟體，現在則由甲骨文公司進行開發和維護。基本上，你就把它當成「一部獨立的電腦」就好了。只是這部電腦是以虛擬的型式，安裝在你的實體電腦裡。只要像開啟軟體一樣啟動它，你就可以在實體與虛擬的電腦環境中自由切換囉！
 
 ### ✪ 下載 VirtualBox：
-[https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+先到這裡下載 VirtualBox：[https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+<img src="./media/virtualbox.png" alt="virtualbox" width="600"/>
 
 ### ✪ 安裝 VirtualBox：
 - Windows 環境下的安裝，就依序完成 [下一步] 的指示即可。  
