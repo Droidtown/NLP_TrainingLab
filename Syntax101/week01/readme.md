@@ -41,6 +41,8 @@ Is 'on' a preposition? False
 
 ## 進階說明：
 程式結構如下流程說明。
+![flowchart](https://github.com/Droidtown/NLP_TrainingLab/blob/main/Syntax101/week01/week01.drawio.png  "flowchart")
+
 程式從進入點 **`if __name__ == "__main__":`** 開始執行。首先呼叫 `main()` 函式。而 `main()` 函式依指定的變數為 "verb", "noun", "adjective" 或 "preposition" 將資料傳給四個子函式各自進行運算後。取得結果為 True 或 False，並回傳給 `main()`。
 
 `main()` 將結果存入 `resultBOOL`之後，印出於畫面上。
