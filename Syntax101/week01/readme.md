@@ -40,7 +40,7 @@ Is 'on' a preposition? False
 改善的方法，就是給 corpusLIST 裡多增加一些含有 "see"、"hungry"、"food" 和 "on" …等等詞彙的英文句子。就像是給讓程式「多閱讀，多接受語言刺激」這麼一來，它就能學會更多詞彙的詞性囉。
 
 ## 進階說明：
-程式結構如下流程說明。
+程式結構如下流程說明。  
 ![flowchart](https://github.com/Droidtown/NLP_TrainingLab/blob/main/Syntax101/week01/week01.drawio.png  "flowchart")
 
 程式從進入點 **`if __name__ == "__main__":`** 開始執行。首先呼叫 `main()` 函式。而 `main()` 函式依指定的變數為 "verb", "noun", "adjective" 或 "preposition" 將資料傳給四個子函式各自進行運算後。取得結果為 True 或 False，並回傳給 `main()`。
