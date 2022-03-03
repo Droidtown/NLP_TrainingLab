@@ -54,7 +54,7 @@ def verbChecker(wordSTR, refLIST):
     # If they all of them can be found in the refLIST, it is very possible that the wordSTR is an English verb.
 
     resultBOOL = True
-    for i in ("", "s", "ing", "ed", "en"): #Here lists all possible verb endings with/without affixes
+    for i in ("", "s", "ing", "ed"): #Here lists all possible verb endings with/without affixes
         if wordSTR+i in ",".join(refLIST):
             pass
         else:
@@ -163,20 +163,20 @@ if __name__ == "__main__":
                   "He never glonks on Sundays",
                   "He started glonking when he was fourteen",
                   "He once glonked an out-of-work actress",
-                  "He’s never glonked any of his classmates",
+                  "He’s never glonken any of his classmates",
                   "John was feeling nurgy, but happy",
                   "He’s nurgier than anyone I know"
                   "He’s been behaving very nurgily all week",
                   "John is a bong, and so is Fred",
                   "In fact, they’re both typical bongs",
                   "She put the car ung the garage",
-                  "She made sure that it was right ung"
+                  "She made sure that it was right ung",
                 ]
 
 
     #[tw] 測試 'glonk' 是不是動詞
     #[en] Test if 'glonk' is a verb or not.
-    unknownWord = "glonk"
+    unknownWord = "listen"
     category = "verb"
     resultBOOL = main(wordSTR=unknownWord, wordClass=category, refLIST=corpusLIST)
     print("Is '{}' a {}? {}".format(unknownWord, category, resultBOOL))
