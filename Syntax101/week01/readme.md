@@ -46,3 +46,6 @@ Is 'on' a preposition? False
 程式從進入點 **`if __name__ == "__main__":`** 開始執行。首先呼叫 `main()` 函式。而 `main()` 函式依指定的變數為 "verb", "noun", "adjective" 或 "preposition" 將資料傳給四個子函式各自進行運算後。取得結果為 True 或 False，並回傳給 `main()`。
 
 `main()` 將結果存入 `resultBOOL`之後，印出於畫面上。
+
+## 本課程影片：
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/8bdRWgyN2vM/0.jpg)](http://www.youtube.com/watch?v=8bdRWgyN2vM)
