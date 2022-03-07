@@ -26,7 +26,7 @@ Python 有幾個內建的資料型式 (data type)，分別詳列如下：
 > 第二個字：nergily  
 > 第三個字：get up  
 
-看到第三個字的時候，我們可以發現，「獨立的意義」這個定義似乎有點模糊。畢竟 "He always gets up in the afternoon." 這一串符號也是有獨立的意義，不同於另一串符號 "She sometimes goes to bed late." 的意義呀！
+看到第三個字的時候，我們可以發現，「獨立的意義」這個定義似乎有點模糊。畢竟 "He always gets up in the afternoon." 這一串符號也是有獨立且不同於另一串符號 "She sometimes goes to bed late." 的意義呀！
 
 事實上，在語言學裡，"What makes a word" 可透過疑問句的位移律 (transformation rules) 來進行確認。但對程式語言來說，我們就可以有以下的操作來表示「一個字串」：
 
