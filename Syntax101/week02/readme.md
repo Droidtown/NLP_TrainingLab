@@ -1,14 +1,17 @@
 # Form: Data/Info in Languages
-本系列的練習裡，將透過實際操作 Python 程式語言來理解「自然語言」裡的資料/資訊，在程式語言裡是如何呈現的。
+本系列的練習裡，將透過實際操作 Python 程式語言來理解「自然語言」裡的資料/資訊，在程式語言裡是如何呈現的。程式能力很像騎腳踏車或是游泳，如果你想確實掌握的話，一定要親手試試看哦！
 
 ## 練習目標：
-1. 理解「字串」(string type)
-2. 理解「數字」(number type)
+Python 有幾個內建的資料型式 (data type)，分別詳列如下：
+1. 「字串」(string type)
+2. 「數字」(number type)
 	- 整數型 (integer number, int)
 	- 小數型 (floating number, float)
-3. 理解「列表」(list type)
-4. 理解「元組」(tuple type)
-5. 理解「字典」(dictionary type)
+3. 「列表」(list type)
+4. 「元組」(tuple type)
+5. 「字典」(dictionary type)
+
+本週的練習將著重在運用語言學來操作文本資料 (text data) 時最常使用的「字串」。
 
 ## 說明：
 「字串」顧名思義就是「一串字」的意思。但在電腦程式的眼裡，它並不知道什麼是一個「字 (word)」，它只知道一個一個的「字符 (character)」。
@@ -62,4 +65,53 @@ word02_org = None   #請把 None 改成你的答案。
 print(word01_org)      #你的答案應該能讓這一行印出 glonk
 print(word02_org)      #你的答案應該能讓這一行印出 glonk
 ```
+除了取得「原型」以外，我們也可以利用 `+` 這個符號，對兩個字串進行「串接」的操作。這個功能在為詞根加上詞綴時特別好用。比如說，我們已有 `nergily` 這個詞彙，而我們想要把它變為原形。這時候我們可以這麼操作：
 
+```python
+m02 = "nergily"    #別忘了，遇到 = 等號的時候，從右邊開始讀起。
+m02 = m02[0:-2]    #先去除 -ly 的副詞詞綴。我們把 m02[0:-2] 去除 -ly 的計算結果 nergi 再度命名為 m02
+m02 = m02[0:-1]    #再去除詞尾的 i。我們把 m02[0:-1] 去除 -i 的計算結果 nerg 再度命名為 m02
+m02 = m02 + "y"    #再把 "nerg" 加上 "y" 
+print(m02)         #此時就可以得到新的 m02 為 "nergy" 了
+```
+
+以上是依詞綴的變形律操作的，在撰寫程式時，我們可以把幾個步驟整併起來：
+
+```python
+m02 = "nergily"
+m02 = m02[0:-3] + "y"   #藉由把 [0:-2] 和 [0:-1] 結合起來一次做掉，再加上 "y" 的操作
+print(m02)              #此時就可以得到新的 m02 為 "nergy" 了
+```
+## 練習 w02_02：
+> 請把以下的 "nergier" 的變形，還原成它的原形 "nergy"：  
+> 1. I am feeling nergier every minute.
+
+```python
+word03 = "nergier"
+#請在接下來的幾行內把 word03 透過字串操作，依英文的構詞律 (morphological rules) 改成 nergy。
+
+
+print(word03_org)      #你的答案應該能讓這一行印出 nergy
+```
+
+## 額外練習：
+Python 還有幾個內建的字串工具，可以把字串變成「全大寫」、「全小寫」、「句首大寫」或是「首字大寫」。試著動手操作看看：
+
+```python
+text01 = "I will always find you."
+#全小寫 STR.lower()  STR 的意思是「放一個字串在這個位置。
+text01_lowerCase = text01.lower()
+print(text01_lowerCase)
+
+#全大寫 STR.upper()
+text01_upperCase = text01.upper()
+print(text01_upperCase)
+
+#句首大寫 STR.capitalize()
+text01_cap = text01.capitalize()
+print(text01_cap)
+
+#首字大寫 STR.title()
+text01_title = text01.title()
+print(text01_title)
+```
