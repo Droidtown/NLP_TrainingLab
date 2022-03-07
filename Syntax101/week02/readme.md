@@ -1,6 +1,9 @@
 # Form: Data/Info in Languages
 本系列的練習裡，將透過實際操作 Python 程式語言來理解「自然語言」裡的資料/資訊，在程式語言裡是如何呈現的。程式能力很像騎腳踏車或是游泳，如果你想確實掌握的話，一定要親手試試看哦！
 
+如果在實作的過程中遇到任何問題，歡迎你到我們的 Discord 伺服器的 #nlp 頻道裡提問哦！
+[連結：https://discord.gg/g5Enb5zAyK](https://discord.gg/g5Enb5zAyK)
+
 ## 練習目標：
 Python 有幾個內建的資料型式 (data type)，分別詳列如下：
 1. 「字串」(string type)
