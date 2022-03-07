@@ -1,4 +1,4 @@
-#Form: Words, Word Classes, Phrases
+# Form: Words, Word Classes, Phrases
 
 本次的練習裡，將利用課堂中提到的「構詞上的証據」來做詞彙的詞性分類 (Word classification. a.k.a Part-of-Speech classification, word categorization)
 
