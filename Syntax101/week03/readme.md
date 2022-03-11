@@ -82,10 +82,10 @@ if __name__ == "__main__":
 
 接下來的說明以及練習，我們都會以前述的完整程式框架來撰寫。
 
-## 說明01：取得使用者的輸入(詳見week03_Read_and_Write_demo01.py)
+## 說明01：取得使用者的輸入(詳見week03\_Read\_and\_Write\_demo01.py)
 在 Python3 裡，取得使用者的輸入，是利用 `input()` 這個內建的函式。在以下的例子裡，我們將使用 `input()` 取得使用者的輸入，然後把轉給 `main()` 函式來做進一步的處理。
 
-- week03_Read_and_Write_demo01.py
+- week03\_Read\_and\_Write\_demo01.py
 
 ```python
 #!/usr/bin/env python3
@@ -125,10 +125,17 @@ if __name__ == "__main__":
     print("你輸入的是 {}，它的  <__?__> 應該是 {}！".format(userInputSTR, outputSTR))
 ```
 
-## 說明02：取得檔案的輸入，並另存新檔 (詳見week03_Read_and_Write_demo02.py)
-除了取得使用者輸入以外，我們也可以利用 `open()` 的內建函式來讀取檔案以及寫入檔案。比如說：
+## 說明02：取得檔案的輸入，並另存新檔 (詳見week03\_Read\_and\_Write\_demo02.py)
+除了取得使用者輸入以外，我們也可以利用 `open()` 的內建函式來讀取檔案以及寫入檔案。首先說明一下「檔案目錄路徑」(白話就是「檔案放在哪裡？」) 的部份，有兩個重點要注意。一是 "." OR ".." (一個點或兩個點)，另一個是 "/" 斜線！
 
-- week03_Read_and_Write_demo02.py
+斜線的方向是「右上到左下」，在鍵盤上的位置是右手小指的最下面這一排的位置。
+
+而「一個點或兩個點」的意思，則是…
+![](./media/w3_01.png)
+
+搭配以上的知識以後，我們可以寫出這樣的程式：
+
+- week03\_Read\_and\_Write\_demo02.py
 
 ```python
 #!/usr/bin/env python3
