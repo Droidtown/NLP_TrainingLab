@@ -5,7 +5,7 @@
 [連結：https://discord.gg/g5Enb5zAyK](https://discord.gg/g5Enb5zAyK)
 
 ## 練習目標：
-Python 有幾個內建的資料型式 (data type)，分別詳列如下：
+Python 有幾個內建的資料型式 (data type)，分別詳列如下：
 1. 「字串」(string type)
 2. 「數字」(number type)
 	- 整數型 (integer number, int)
