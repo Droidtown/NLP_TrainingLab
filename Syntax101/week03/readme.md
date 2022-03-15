@@ -27,7 +27,7 @@ Python 有幾個內建的資料型式 (data type)，分別詳列如下：
 
 def main():
     return None
-    
+
 if __name__ == "__main__":
     main()
 ```
