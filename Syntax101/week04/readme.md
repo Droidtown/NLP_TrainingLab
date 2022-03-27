@@ -197,9 +197,9 @@ print(list01) #結果應為 ['John kick', 'd th', ' sign and l', 'ft.']
 在上面的測試裡，就能發現只要是字母 "**e**" 的地方，都被切開成為斷點。而原本的 string01 的字串(string) 內容，則因為 `.split()` 的操作，變成了一個列表 (list) 型的資料了。這項操作在後續的 NLP 任務中會很常用到。請務必多多練習！
 
 ## 練習 w04_01：
-> 下列的德文句子裡，動詞是最後一個字。請利用 `.split()` 和 `[ ]` 取出句子裡的德文動詞！
-Ich kann den Mann sehen.
-Ich sah einen Mann, der einen Apfel aß.
+> 下列的德文句子裡，動詞是最後一個字。請利用 `.split()` 和 `[ ]` 取出句子裡的德文動詞！  
+1. Ich kann den Mann sehen.  
+2. Ich sah einen Mann, der einen Apfel aß.
 
 ```python
 #!/usr/bin/env python3
