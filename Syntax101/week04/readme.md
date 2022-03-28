@@ -5,14 +5,14 @@
 [連結：https://discord.gg/g5Enb5zAyK](https://discord.gg/g5Enb5zAyK)
 
 ## 練習目標：
-Python 有幾個內建的資料型式 (data type)，分別詳列如下：
-1. 「字串」(string type)
-2. 「數字」(number type)
-	- 整數型 (integer number, int)
-	- 小數型 (floating number, float)
-3. 「列表」(list type)
-4. 「元組」(tuple type)
-5. 「字典」(dictionary type)
+Python 有幾個內建的資料型式 (data type)，分別詳列如下：  
+1. 「字串」(string type)  
+2. 「數字」(number type)  
+	- 整數型 (integer number, int)  
+	- 小數型 (floating number, float)  
+3. 「列表」(list type)  
+4. 「元組」(tuple type)  
+5. 「字典」(dictionary type)  
 
 本週的練習將會是從「字串」到「元組」之間的操作。乍看之下好像範圍很大，但其實它的操作思維是一致的。
 
