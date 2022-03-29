@@ -70,7 +70,7 @@ word02 = 一部func(word01)
 print(word02) 
 #得到  一部機車(詞性_noun) 的結果。於是你知道「機車」是名詞。
 
-word03 = 很func(word02)
+word03 = 很func(word01)
 print(word03)
 #得到 很機車(詞性_adj/adv)  的結果。於是你知道「機車」是形容詞或副詞。
 ```
