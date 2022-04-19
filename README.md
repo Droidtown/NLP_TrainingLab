@@ -32,7 +32,7 @@ Oracle VirtualBox 是由德國 InnoTek 軟體公司出品的虛擬機器軟體�
 虛擬機器是一個完整的電腦環境。裡面有自己的桌面、應用程式、瀏覽器…等等。啟動虛擬機器，就像在你的實體電腦裡啟動了一個虛擬的電腦。在這個虛擬電腦裡做的操作，基本上都不會影響你的實體電腦。請放心大膽嚐試吧！如果偶爾因為你的實體電腦規格不夠而有畫面卡住的情況，只要重啟這個虛擬的電腦即可。如果你的虛擬電腦常常畫面卡住而無法操作的話，你可能要考慮換一部規格較好的硬體電腦來操作這部虛擬電腦囉。
 
 ### ✪ 下載虛擬機器：
-點擊下載連結：[https://bit.ly/NLP_TrainingLAB1202](https://bit.ly/NLP_TrainingLAB1202)
+點擊下載連結：[https://bit.ly/NLP_TrainingLAB1202](https://mega.nz/file/xplUkQ4R#11w28GDpIa4plCPKrR_6juEAskjahK1jKurvP9Cgaw4)
 
 檔案有點大，約 3.5GB，請耐心稍待…  
 <img src="./media/download.png" alt="download" width="600"/>
