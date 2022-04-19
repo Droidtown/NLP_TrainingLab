@@ -50,6 +50,23 @@ print(dataTUPLE[1]) #取出 dataTUPLE 裡的第一個元素
 ![](./media/forLoop03.gif)
 </kbd>
 
+說白了，[for 迴圈] 就是自然語言裡的「每」與「都」(語言學的行話叫「全稱量化詞」)。像我們想理解這句話「每個人都帶了水壺」的意義的話，那麼在 [for 迴圈] 裡就會像這樣…
+
+```python
+peopleLIST = ["John", "Mary", "Peter"]
+statusLIST = []
+for p in peopleLIST:
+    statusLIST.append(p+"帶了水壺")
+```
+
+如此一來，就能得到：
+
+```python
+statusLIST = ["John 帶了水壺", "Mary 帶了水壺", "Peter 帶了水壺"]
+```
+
+的命題了。這裡的「每」和「都」就是在你的心裡提示了「要理解這句話，你可得一個一個檢查過，才能確定這句話是真的」。這個「一個一個來」的部份，就是前文中提到的**從`可依次取元素的東西` 中一次取出一個東西**，也就是 [for 迴圈] 的奧義了。
+
 這個東西在 NLP 的時候有什麼用呢？比如說，我們手上有法文的陽性形容詞列表：
 
 ```python
