@@ -24,7 +24,7 @@ while [迴圈成立條件]成立:
 ```python
 #無限迴圈示範
 xCounter = 1
-while xCounter <= 1:
+while xCounter >= 1:
     xCounter = xCounter + 1
     print("xCounter 最新的值是 {}".format(xCounter))
 ```
