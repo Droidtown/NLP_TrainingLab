@@ -158,7 +158,7 @@ def main(inputSTR, targetSTR):
     
 if __name__ == "__main__":
     #讀入 news.txt 檔
-    with open("news.txt", "r", encoding="utf-8") as f:
+    with open("./media/news.txt", "r", encoding="utf-8") as f:
         textSTR = f.read()
     #把 textSTR 傳入 main() 裡
     targetWordSTR = "Musk"
