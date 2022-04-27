@@ -71,7 +71,7 @@ z = 10
 if x < z < y:
     print("z 比 x 大，但比 y 小")
 else:
-    print("x, y, z 三者的關係不是由小到大")
+    print("x, z, y 三者的關係不是由小到大")
 ```
 
 講了這麼多，好像都只是在比大小。但「條件」可不是只有大小而已。我們也可以使用列表 (list) 或是字串 (string) 的一些方法來使用 `if...else...` 條件判斷式。
@@ -131,7 +131,6 @@ textSTR01 = "US diplomats returned to Ukraine today for the first time since Rus
 textSTR02 = "The diplomats crossed into the country from Poland and traveled to the western city of Lviv for a day trip, according to the source."
 textSTR03 = "The visit comes after US Secretary of State Antony Blinken told Ukrainian President Volodymyr Zelensky that the US would send diplomats into the country starting this week when he visited the Ukrainian capital over the weekend."
 
-possibleVerbLIST = [] #準備一個空列表，用來承接稍後抓出來的可能動詞
 targetWord = "US" #從 textSTR01, textSTR02, textSTR03 三個字串裡，找出哪一個含有 US 這個字
 
 for i in [textSTR01, textSTR02, textSTR03]:
