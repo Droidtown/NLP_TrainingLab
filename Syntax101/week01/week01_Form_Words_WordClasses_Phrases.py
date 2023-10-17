@@ -113,14 +113,14 @@ def nounChecker(wordSTR, refLIST):
     # refLIST. If they all of them can be found in the refLIST, it is very possible that the wordSTR is
     # an English noun.
     resultBOOL = True
-    for i in ("", "s"):  # Nouns with plural {-s}.
-        if " {} {} ".format(wordSTR, i) in ",".join(refLIST): #This condition is better writeen with regex for regex can define word boundaries in western writing systems..
+    for i in ("s", ""):  # Nouns with plural {-s}.
+        if " {}{} ".format(wordSTR, i) in " , ".join(refLIST): #This condition is better writeen with regex for regex can define word boundaries in western writing systems..
             break
-        elif " a {} ".format(wordSTR) in ",".join(refLIST):
+        elif " a {} ".format(wordSTR) in " , ".join(refLIST):
             break
-        elif " an {} ".format(wordSTR) in ",".join(refLIST):
+        elif " an {} ".format(wordSTR) in " , ".join(refLIST):
             break
-        elif " the {} ".format(wordSTR) in ",".join(refLIST):
+        elif " the {} ".format(wordSTR) in " , ".join(refLIST):
             break
         else:
             resultBOOL = False
@@ -151,7 +151,7 @@ def prepositionChecker(wordSTR, refLIST):
     #If none of these known verbial/nominal/adverbial/adjective suffixes are seen used with the wordSTR,
     #then it is considered as a preposition.
     for i in  ("s ", "ing ", "ed ", "ly ", "er ", "est "):
-        if " {} {} ".format(wordSTR, i) in ",".join(refLIST):
+        if " {}{} ".format(wordSTR, i) in " , ".join(refLIST):
             break
         else:
             resultBOOL = True
