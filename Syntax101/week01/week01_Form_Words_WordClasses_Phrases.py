@@ -114,7 +114,7 @@ def nounChecker(wordSTR, refLIST):
     # an English noun.
     resultBOOL = True
     for i in ("", "s"):  # Nouns with plural {-s}.
-        if wordSTR+i in ",".join(refLIST):
+        if " {} {} ".format(wordSTR, i) in ",".join(refLIST): #This condition is better writeen with regex for regex can define word boundaries in western writing systems..
             break
         elif " a {} ".format(wordSTR) in ",".join(refLIST):
             break
@@ -147,6 +147,15 @@ def prepositionChecker(wordSTR, refLIST):
         resultBOOL = False
     elif nounChecker(wordSTR, refLIST):      #Use nounChecker() to see if it is morphologically like a noun.
         resultBOOL = False
+
+    #If none of these known verbial/nominal/adverbial/adjective suffixes are seen used with the wordSTR,
+    #then it is considered as a preposition.
+    for i in  ("s ", "ing ", "ed ", "ly ", "er ", "est "):
+        if " {} {} ".format(wordSTR, i) in ",".join(refLIST):
+            break
+        else:
+            resultBOOL = True
+
     return resultBOOL
 
 
@@ -169,8 +178,20 @@ if __name__ == "__main__":
                   "He’s been behaving very nurgily all week",
                   "John is a bong, and so is Fred",
                   "In fact, they’re both typical bongs",
-                  "She put the car ung the garage",
-                  "She made sure that it was right ung",
+                  "She put the car on the garage",
+                  "She made sure that it was right on",
+                  "John likes to listen to Jazz",
+                  "John never listens to R&B",
+                  "John enjoys listening to Jazz a lot",
+                  "John has never listened to anything else",
+                  "John's hungrier than Bill",
+                  "John's the hungriest person today",
+                  "John's eating hungrily",
+                  "John's a dog",
+                  "John's the dog I bought yesterday",
+                  "John likes dogs",
+                  "She put the car on the garage",
+                  "She made sure that it was right on",
                 ]
 
 
@@ -197,7 +218,7 @@ if __name__ == "__main__":
 
     #[tw] 測試 'ung' 是不是介系詞
     #[en] Test if 'ung' is a preposition or not.
-    unknownWord = "ung"
+    unknownWord = "on"
     category = "preposition"
     resultBOOL = main(wordSTR=unknownWord, wordClass=category, refLIST=corpusLIST)
     print("Is '{}' a {}? {}".format(unknownWord, category, resultBOOL))
