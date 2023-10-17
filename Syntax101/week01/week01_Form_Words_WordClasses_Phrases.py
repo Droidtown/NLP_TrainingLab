@@ -115,13 +115,13 @@ def nounChecker(wordSTR, refLIST):
     resultBOOL = True
     for i in ("", "s"):  # Nouns with plural {-s}.
         if wordSTR+i in ",".join(refLIST):
-            pass
+            break
         elif " a {} ".format(wordSTR) in ",".join(refLIST):
-            pass
+            break
         elif " an {} ".format(wordSTR) in ",".join(refLIST):
-            pass
+            break
         elif " the {} ".format(wordSTR) in ",".join(refLIST):
-            pass
+            break
         else:
             resultBOOL = False
     return resultBOOL
